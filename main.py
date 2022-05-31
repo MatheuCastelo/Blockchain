@@ -1,18 +1,6 @@
 import hashlib
 from time import sleep
 
-
-"""
-VARIAVEIS
-"""
-
-
-
-"""
-FIM VARIAVEIS
-"""
-
-
 """
 Neste espaço irei criar as funções.
 """
@@ -57,7 +45,6 @@ def BlockFormater(block, nonce, data, hashBlock, hashPrev):
     print('Previous Hash:   ' + str(hashPrev))
     print('block all:       ' + str(blockData))
     print('#####################################\n')
-
 
 
 """
@@ -113,6 +100,4 @@ def main():
             print("A blockchain foi modificada")
             lets = False
         
-     
-
 main()
